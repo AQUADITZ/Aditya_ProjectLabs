@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="style.css"> -->
+		<title>PROGRAM PENJUALAN MAKANAN</title>
+	</head>
+	<body>
+
+		<form name="form">
+			<table>
+				<tr>
+					<th colspan="2">PROGRAM PEMBELIAN MAKANAN</th>
+				</tr>
+				<tr>
+					<th>NAMA BARANG</th>
+					<th>JUMLAH BELI MAKANAN</th>
+				</tr>
+				<tr>
+					<td>
+						<label> <input type="checkbox" class="kerupuk" /> </label>kerupuk
+					</td>
+					<td><input type="text" class="jumlahBelikerupuk" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label> <input type="checkbox" class="ciki" /> </label>ciki
+					</td>
+					<td><input type="text" class="jumlahBeliciki" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label> <input type="checkbox" class="es" /> </label>es
+					</td>
+					<td><input type="text" class="jumlahBelies" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label> TOTAL HARGA </label>
+					</td>
+					<td><input type="text" id="total" disabled /></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="Proses" /></td>
+					<td><input type="reset" value="Reset" /></td>
+				</tr>
+			</table>
+		</form>
+
+		<p>
+			Catatan: <br />
+			Harga 1 kerupuk = 120, <br />
+			Harga 1 ciki = 500, <br />
+			Harga 1 es = 3000
+		</p>
+    <script src="28b_object.js"></script>
+	</body>
+</html>
